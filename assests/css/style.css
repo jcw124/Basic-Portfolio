@@ -3,7 +3,8 @@ body{
     background: url("../images/confectionary.png");
      padding: 75px;
      margin-top: 25px;
-    color: #777777;
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .sidebar{
@@ -20,9 +21,14 @@ body{
     padding: 10px;
 }
 #main{
-background-color: white;
+background-color: #ffffff;
 width: 650px;
 float: left;
+padding-left: 20px;
+border-color:#dddddd;
+border-style: solid;
+border-width: 1pt;
+
 }
 div {
         width: 450px;
@@ -47,10 +53,10 @@ header{
     border-style: solid;
     border-color: #4aaaa5;
     height: 10px;
-    width: 150px;
+    width: 25%;
     border-width:35px;
-    
-     
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 
 }
 #images{
@@ -58,6 +64,7 @@ background-color: aquamarine;
 }
 h1{
  color:#4aaaa5;
+ text-align: center;
 }
 h2{
     text-align: center;
@@ -69,18 +76,20 @@ footer{
     bottom: 0;
     width: 100%;
     height: 10%;
-    background-color:gray;
+    background-color:#666666;
     color: white;
     text-align: center;
-    border-top:  rgb(52, 194, 147);
-    border-top-width: 40px;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    padding-top: 15pt;
     
 }
 form{
     width: 650px;
 }
 input[type=submit] {
-    background-color:  rgb(52, 194, 147);
+    background-color:  #4aaaa5;
     border: none;
     color: white;
     padding: 16px 32px;
