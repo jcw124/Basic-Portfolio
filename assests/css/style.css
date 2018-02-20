@@ -3,6 +3,7 @@ body{
     background: url("../images/confectionary.png");
      padding: 75px;
      margin-top: 25px;
+    color: #777777;
 
 }
 .sidebar{
@@ -42,12 +43,13 @@ header{
     top: 0;
     color: white;
     text-align: left;
-    background-color:  rgb(52, 194, 147);
+    background-color:  #4aaaa5;
     border-style: solid;
-    border-color: rgb(52, 194, 147);
+    border-color: #4aaaa5;
     height: 10px;
     width: 150px;
     border-width:35px;
+    
      
 
 }
@@ -55,10 +57,11 @@ header{
 background-color: aquamarine;
 }
 h1{
-
+ color:#4aaaa5;
 }
 h2{
-    text-align: center
+    text-align: center;
+    color: #4aaaa5;
 }
 footer{
     position: fixed;
