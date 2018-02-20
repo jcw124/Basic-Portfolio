@@ -9,6 +9,7 @@ body{
     width: 270px;
     background-color: white;
     float: right;
+    display: block;
 
 }
 #profilepic{
@@ -17,7 +18,7 @@ body{
     float: left;
     padding: 10px;
 }
-#aboutme{
+#main{
 background-color: white;
 width: 650px;
 float: left;
@@ -72,5 +73,21 @@ footer{
     border-top-width: 40px;
     
 }
-
-  
+form{
+    width: 650px;
+}
+input[type=submit] {
+    background-color:  rgb(52, 194, 147);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
