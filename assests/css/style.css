@@ -2,12 +2,14 @@ body{
     width: 960px;
     background: url("../images/confectionary.png");
      padding: 75px;
+     margin-top: 25px;
 
 }
 .sidebar{
     width: 270px;
     background-color: white;
     float: right;
+
 }
 #profilepic{
     height: 250px;
@@ -22,7 +24,7 @@ float: left;
 }
 div {
         width: 450px;
-        padding: 25px;
+        padding: 20px;
         margin: 25px;
     }
 p{
@@ -33,7 +35,19 @@ p{
     background-color: rgb(238, 235, 235);
 }
 
-Header{
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+    text-align: left;
+    background-color:  rgb(52, 194, 147);
+    border-style: solid;
+    border-color: rgb(52, 194, 147);
+    height: 10px;
+    width: 150px;
+    border-width:35px;
+     
 
 }
 #images{
@@ -58,4 +72,5 @@ footer{
     border-top-width: 40px;
     
 }
+
   
