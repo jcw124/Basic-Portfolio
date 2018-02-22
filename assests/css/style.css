@@ -1,17 +1,24 @@
 body{
-    width: 960px;
     background: url("../images/confectionary.png");
-     padding: 75px;
-     margin-top: 25px;
+     }
+
+#content{
+    width: 960px;
+    margin: 0px auto;
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
 .sidebar{
     width: 270px;
     background-color: white;
     float: right;
+    overflow: auto;
+    display: block;
+    margin-top: 25px;
+    padding: 20px;
 }
+
 #profilepic{
     height: 250px;
     width: 250px;
@@ -22,16 +29,17 @@ body{
 background-color: #ffffff;
 width: 650px;
 float: left;
-padding-left: 20px;
+padding: 20px;
 border-color:#dddddd;
 border-style: solid;
 border-width: 1pt;
+margin-top:20px;
 }
-div {
+/* div {
         width: 450px;
         padding: 20px;
         margin: 25px;
-    }
+    } */
 p{
     overflow: auto;
 
@@ -39,8 +47,13 @@ p{
 #line{
     background-color: rgb(238, 235, 235);
 }
-
-header{
+body header{
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    border-bottom: 1px solid #777777;
+}
+/* header{
     position: relative;
     left: 0;
     top: 0;
@@ -54,11 +67,8 @@ header{
     border-width:35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    margin-bottom: 25px; */
 
-}
-#images{
-    
-}
 h1{
  color:#4aaaa5;
 }
@@ -100,4 +110,45 @@ input[type=text] {
     box-sizing: border-box;
 }
 #portfolio{
+}
+ul {
+    position: fixed;
+    right: 0;
+    float: top;
+}
+li{
+    display: inline;
+}
+#message{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10%;
+}
+#links {
+    float: left;
+    color: grey;
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    text-align: right;
+    position: absolute;
+}
+#name{
+    /* position: relative; */
+    color: white;
+    text-align: left;
+    background-color:  #4aaaa5;
+    border-style: solid;
+    border-color: #4aaaa5;
+    width: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+#images{
+  size: 25px;
 }
