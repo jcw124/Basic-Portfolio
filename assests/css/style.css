@@ -1,80 +1,16 @@
-body{
+* {
+    box-sizing: border-box;
+}
+body {
     background: url("../images/confectionary.png");
-     }
-
-#content{
-    width: 960px;
-    margin: 0px auto;
-    color:  #777777;
+    background-repeat: repeat;
+    min-width: 960px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.sidebar{
-    width: 270px;
-    background-color: white;
-    float: right;
-    overflow: auto;
-    display: block;
-    margin-top: 25px;
-    padding: 20px;
-}
-
-#profilepic{
-    height: 250px;
-    width: 250px;
-    float: left;
-    padding: 10px;
-}
-#main{
-background-color: #ffffff;
-width: 650px;
-float: left;
-padding: 20px;
-border-color:#dddddd;
-border-style: solid;
-border-width: 1pt;
-margin-top:20px;
-}
-/* div {
-        width: 450px;
-        padding: 20px;
-        margin: 25px;
-    } */
-p{
-    overflow: auto;
-
-}
-#line{
-    background-color: rgb(238, 235, 235);
-}
-body header{
-    background-color: white;
-    height: 65px;
-    width: 100%;
-    border-bottom: 1px solid #777777;
-}
-/* header{
-    position: relative;
-    left: 0;
-    top: 0;
-    color: white;
-    text-align: left;
-    background-color:  #4aaaa5;
-    border-style: solid;
-    border-color: #4aaaa5;
-    height: 10px;
-    width: 25%;
-    border-width:35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-bottom: 25px; */
-
-h1{
- color:#4aaaa5;
-}
-h2{
-    text-align: center;
-    color: #4aaaa5;
+header {
+    height: 67px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
 }
 footer{
     position: fixed;
@@ -88,76 +24,126 @@ footer{
     border-top-width: 10px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
-    padding-top: 15pt;
-    
+    padding-top: 15pt;  
 }
-form{
-    width: 650px;
-}
-input[type=submit] {
-    background-color:  #4aaaa5;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-#portfolio{
-}
-ul  {
-    position: fixed;
-    right: 0;
-    float: top;
-    display:inline
-}
-ul :nth-child(2){
-border-left: 1px solid #dddd;
-border-right: 1px solid #dddd;
-}
-
-#message{
-    width: 100%;
-    height: 250px;
-    margin-bottom: 10%;
-}
-#links {
-    float: left;
-    color: grey;
-    width: 80%;
-    height: 50px;
-    margin-top: 30px;
-    text-align: right;
-    position: absolute;
-}
-#name{
-    /* position: relative; */
-    color: white;
-    text-align: left;
-    background-color:  #4aaaa5;
-    border-style: solid;
-    border-color: #4aaaa5;
-    width: 25%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1{
+    color:#4aaaa5;
     font-size: 25px;
-    margin-bottom: 25px;
+    border-bottom: 2px solid#a5a5a5;
+    padding-bottom: 10px;
+}
+   h2{
+       text-align: center;
+       color: #4aaaa5;
+       font-size: 20px;
+       border-bottom: 2px solid #a5a5a5;
+    padding-bottom: 10px;
+}
+content{
+    width: 960px;
+    margin: 0 auto;
+}   
+#name{
+    background-color: #4aaaa5;
     padding: 20px;
+    float: left;
+    color: white;
+    font-size: 25px;
 }
-*{
-    box-sizing: border-box;
+#profilepic{
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 15px;
 }
+#main{
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+    padding: 20px;
+    border-color:#dddddd;
+    border-style: solid;
+    border-width: 1pt;
+    margin-top:20px;
+    }
+#content{
+    width: 960px;
+    margin: 0px auto;
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+p{
+    overflow: auto;
+    }
 #images img{
-margin-top:30px;
-width: 60px; 
-border: none;
-}
+    margin-top:30px;
+    width: 60px; 
+    border: none;
+    }
 nav{
     padding-top: 23px;
     float: right;
+    }
+ul, li {
+    color: #a5a5a5;
+    display: inline;
+    font-weight: 100;
+    }
+
+
+aside{
+    width: 270px;
+    background-color: white;
+    float: right;
+    overflow: auto;
+    display: block;
+    margin-top: 25px;
+    padding: 20px;
+    }
+#aboutme{
 }
+#images img{
+    margin-top:30px;
+    width: 60px; 
+    border: none;
+    }
+form{
+        width: 650px;
+    }
+input[type=submit] {
+        background-color:  #4aaaa5;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    p{
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
