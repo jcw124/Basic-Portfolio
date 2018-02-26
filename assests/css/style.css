@@ -73,6 +73,7 @@ content{
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
     }
+   
 p{
     overflow: auto;
     }
@@ -109,6 +110,7 @@ aside{
 form{
         width: 650px;
         overflow: auto;
+        position: relative;
     }
 input[type=submit] {
         background-color:  #4aaaa5;
