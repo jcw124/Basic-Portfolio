@@ -131,7 +131,7 @@ input[type=text] {
 
 form{
     width: 650px;
-}
+/* }
 input[type=submit] {
     background-color:  #4aaaa5;
     border: none;
@@ -151,7 +151,24 @@ input[type=text] {
     box-sizing: border-box;
     font-size: 20pxl;
     display: inline-block;
+} */
+
+input[type=submit] {
+    background-color:  #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
 #main{
     background-color: #ffffff;
     width: 650px;
